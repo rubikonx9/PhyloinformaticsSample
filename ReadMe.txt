@@ -15,6 +15,10 @@ projects (see below)
 other:
 -> uses OpenGL 3.x and GLSL ver.330
 
+--> Usage:
+Just compile & run. The string to be 'printed' is hard-coded.
+Also, you can rotate the camera with W/S/A/D/Q/E buttons.
+
 --> Approach:
 For each letter present in the string, we load it's predefined 3D model.
 For the purpose of this project, I created just a few letters' models to

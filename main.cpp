@@ -95,6 +95,7 @@ int main() {
 			/*
 			 * This map shall contain the reference to each letter model.
 			 * Hence, we can easily manipulate each letters' combination using only these predefined models.
+			 * Actually, it could (should?) be done with lazy loading of the models.
 			 */
 		std::make_pair('D', new Object3d("Models/Letter_D.3ds")),
 		std::make_pair('r', new Object3d("Models/Letter_r.3ds")),
