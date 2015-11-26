@@ -3,8 +3,8 @@
 
 #include <string>
 #include <iostream>
-#include <gl3/gl3w.h>
-#include <gl/glfw.h>
+#include <GL/gl3w.h>
+#include <GL/glfw.h>
 #include <boost/lexical_cast.hpp>
 
 namespace GL {

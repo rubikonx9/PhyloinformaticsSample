@@ -2,7 +2,7 @@
 #define PROGRAM_H_
 
 #include <string>
-#include <GL3/gl3w.h>
+#include <GL/gl3w.h>
 
 #include "Shader.h"
 

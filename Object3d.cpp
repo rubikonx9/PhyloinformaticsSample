@@ -22,7 +22,7 @@ bool Object3d::loadModel(const std::string & filename) {
 	);
 
 	if(!scene) {
-		std::cerr << "\nError importing model: " << filename;
+		std::cerr << "\nError importing model: " << filename << ": " << importer.GetErrorString();
 		return false;
 	}
 
@@ -116,12 +116,6 @@ void Object3d::draw() {
 
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, vboIndices);
 	glDrawElements(GL_TRIANGLES, numberOfIndices, GL_UNSIGNED_INT, 0);
-
-	//Unbind buffers
-//	glBindBuffer(GL_ARRAY_BUFFER, 0);
-//	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
-//	glDisableVertexAttribArray(glslPositionIndex);
-//	glDisableVertexAttribArray(glslNormalIndex);
 }
 
 Object3d::~Object3d() {

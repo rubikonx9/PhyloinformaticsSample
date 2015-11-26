@@ -5,7 +5,7 @@
 #include <fstream>
 #include <iostream>
 #include <stdexcept>
-#include <GL3/gl3w.h>
+#include <GL/gl3w.h>
 #include "GL.h"
 
 /*

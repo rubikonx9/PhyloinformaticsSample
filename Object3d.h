@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
-#include <GL3/gl3w.h>
+#include <GL/gl3w.h>
 #include <assimp.hpp>
 #include <aiScene.h>
 #include <aiPostProcess.h>

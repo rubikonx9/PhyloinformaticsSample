@@ -1,4 +1,4 @@
-#include <GL3/gl3w.h>
+#include <GL/gl3w.h>
 #include <GL/glfw.h>
 #include <map>
 #include <ostream>
